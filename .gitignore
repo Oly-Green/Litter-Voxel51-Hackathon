@@ -65,3 +65,7 @@ attic.bak
 # dataset
 /UAVVasteDataset/
 UAVVasteDataset/
+
+# Models
+*.pt
+*.pth
