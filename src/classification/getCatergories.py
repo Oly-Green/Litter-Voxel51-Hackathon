@@ -10,6 +10,8 @@ def parse_supercategory(file_path):
     if os.path.isfile(file_path):
         with open(file_path, 'r', encoding='utf-8') as f:
             annotations_dict = json.load(f)
+    else:
+        print('Chack path given: ', file_path)
 
     super_cat_lists = {}
 
@@ -34,6 +36,6 @@ def parse_supercategory(file_path):
 
 
 file_name = "annotations_unofficial.json"
-path = os.path.join("C:/Users/olive/Documents/NortheasternDocuments/Voxel51-Hackathon/TACO/data", file_name)
+path = os.path.join("D:/Work/My Projects/LitterDetection/Litter-Voxel51-Hackathon/TACO/data", file_name)
 super_cats = parse_supercategory(path)
 print(super_cats)
