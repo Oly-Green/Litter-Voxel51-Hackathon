@@ -65,5 +65,12 @@ attic.bak
 # dataset
 /UAVVasteDataset/
 UAVVasteDataset/
+<<<<<<< HEAD
 /TACO/
 TACO/
+=======
+
+# Models
+*.pt
+*.pth
+>>>>>>> b31990b2ae8c89869222d4a1c6d292946e02993f

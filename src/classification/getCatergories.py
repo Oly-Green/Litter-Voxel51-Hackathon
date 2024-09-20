@@ -32,8 +32,8 @@ def parse_supercategory(file_path):
 
     return super_cat_lists_consolidated
 
-if __name__ == '__main__':
-    file_name = "annotations_unofficial.json"
-    path = os.path.join("C:/Users/olive/Documents/NortheasternDocuments/Voxel51-Hackathon/TACO/data", file_name)
-    super_cats = parse_supercategory(path)
-    print(super_cats)
+
+file_name = "annotations_unofficial.json"
+path = os.path.join("C:/Users/olive/Documents/NortheasternDocuments/Voxel51-Hackathon/TACO/data", file_name)
+super_cats = parse_supercategory(path)
+print(super_cats)
